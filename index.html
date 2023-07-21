@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="mode_dark.css">
+    <link rel="icon" type="image/x-icon" href="image/logo.png">
+    <link data-vue-tag="ssr" rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900&amp;display=swap">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Melani Tirado</title>
+</head>
+
+<body class="body">
+    <header class="header">
+
+        <img class="logo" src="image/logo.png">
+        <button id="moon_dark" class="menu_moon"><i class="bi bi-moon"></i></button>
+        <button id="open_menu" class="open_menu"><i class="bi bi-list"></i></button>
+
+        <div class="menu">
+
+            <nav class="menu_burger menu_desktop" id="menu_burger">
+                <button id="close_menu" class="close_menu"><i class="bi bi-x"></i></button>
+
+                <ul class="menu_burger_ul menu_desktop_ul">
+
+                    <li class="menu_burger_li"><a class="menu_burger_a menu_desktop_a" href="#home">Home</a>
+                    </li>
+                    <li class="menu_burger_li"><a class="menu_burger_a menu_desktop_a" href="about.html">About</a>
+                    </li>
+                    <li class="menu_burger_li"><a class="menu_burger_a menu_desktop_a" href="#projects">Projects</a>
+                    </li>
+                    <li class="menu_burger_li"><a class="menu_burger_a menu_desktop_a" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+
+        <section class="home" class="home">
+            <div class="photo_div">
+                <img class="photo_img" src="image/photo.png" alt="logo MT">
+            </div>
+
+            <div class="presentation">
+                <h1 class="presentation_info_1">Hello, I'm Melani Tirado</h1>
+                <p class="presentation_info_2">I’m trainee frontend engineer, currently a
+                    student at ALURA LATAM.</p>
+            </div>
+        </section>
+
+        <section class="redes">
+            <a class="enlaces" href="https://github.com/melani-ts" target="_blank"><img class="redes_github"
+                    src="image/github.png"></a>
+            <a class="enlaces" href="https://www.linkedin.com/in/melani-tirado/" target="_blank"><img
+                    class="redes_linkedIn" src="image/linkedIn.png"></a>
+        </section>
+
+        <section class="projects" id="projects">
+
+            <h2 class="projects_lastest_projects">Latest Projects</h2>
+
+            <div class="projects_box">
+
+                <p class="projects_titles">Text Encryptor</p>
+
+                <p class="projects_description"> In this project, I have built a website
+                    designed to encrypt and
+                    decrypt messages. I used HTML, CSS, and JavaScript to develop the interface of the page, and I
+                    followed a previously established design template in Figma.</p>
+
+
+
+                <div class="projects_view_project">
+                    <img class="projects_arrow" src="image/flecha.png" alt="flecha icon"><a class="enlaces"
+                        href="https://melani-ts.github.io/alura-challenge/" target="_blank">VIEW
+                        PROJECT</a>
+                </div>
+            </div>
+
+            <div class="projects_img">
+
+                <div class="projects_img_div">
+                    <p class="projects_titles">Text Encryptor</p>
+                    <div>
+                        <img class="projects_icon_question" src="image/question30.png" alt="icon question">
+                    </div>
+
+                </div>
+                <p class="projects_description" id="open_description"> In this project, I have
+                    built a website
+                    designed
+                    to encrypt and decrypt messages. I used HTML, CSS, and JavaScript to develop the interface of
+                    the
+                    page, and I followed a previously established design template in Figma.</p>
+
+                <div class="enlace_img">
+                    <a href="https://melani-ts.github.io/alura-challenge/" target="_blank"><img class="projects_photo"
+                            src="image/encriptador.jpeg" alt="text Encryptor"></a>
+                </div>
+            </div>
+
+            <div class="projects_box">
+                <p class="projects_titles">Alura Barber</p>
+                <p class="projects_description">In this project, I have created a practice
+                    website designed to
+                    simulate a fictional barbershop. I used HTML and CSS to build and style the page.</p>
+
+                <div class="projects_view_project">
+                    <img class="projects_arrow" src="image/flecha.png" alt="flecha icon"><a class="enlaces"
+                        href="https://melani-ts.github.io/alura-barber/" target="_blank">VIEW
+                        PROJECT</a>
+                </div>
+
+            </div>
+
+            <div class="projects_img">
+
+                <div class="projects_img_div">
+
+                    <p class="projects_titles">Alura Barber</p>
+
+                    <div>
+                        <img class="projects_icon_question_2" src="image/question30.png" alt="icon question">
+                    </div>
+
+                </div>
+                <p class="projects_description" id="open_description_2">In this project, I
+                    have created a practice
+                    website designed to
+                    simulate a fictional barbershop. I used HTML and CSS to build and style the page.</p>
+
+                <div class="enlace_img">
+                    <a href="https://melani-ts.github.io/alura-barber/" target="_blank"><img class="projects_photo"
+                            src="image/barber.jpeg" alt="Alura barber"></a>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="contact" id="contact">
+
+            <div class="contact_message">
+                <p class="contact_message_info_1">Send me a message <img class="contact_flower" src="image/flor.png"
+                        alt="flor"></p>
+                <p class="contact_message_info_2">Got a question or proposal, or just want
+                    to say hello? Go ahead.</p>
+            </div>
+
+            <form class="contact_form" action="https://formsubmit.co/95de1631ed2a8532831bc52f1955ffbc" method="post">
+
+                <label class="contact_form_label" for="text">Your Name</label>
+                <input class="contact_form_input" name="name" id="text" type="text" placeholder="Enter your name" required>
+
+                <label class="contact_form_label" for="email">Email Address</label>
+                <input class="contact_form_input" name="email" id="email" type="email" placeholder="Enter your email address"
+                    required>
+
+                <label class="contact_form_label" for="textarea">Your Message</label>
+                <textarea class="contact_form_textarea" name="message" id="textarea"
+                    placeholder="Hi, I think we need a desing system for..."></textarea>
+
+                <div class="contact_button">
+                    <button class="contact_button_1">Send</button>
+                </div>
+
+                <input type="hidden" name="_next" value="https://melani-ts.github.io/portfolio/">
+                <input type="hidden" name="_captcha" value="false">
+             </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+
+        <div class="footer_redes">
+            <a href="https://drive.google.com/file/d/1RZ1VGA67trvKowzh8LWCTZjkEcAYOhBB/view?usp=sharing" target="_blank" class="footer_redes_cv">CV</a>
+            <a href="https://github.com/melani-ts" target="_blank" class="footer_redes_github">GitHub</a>
+            <a href="https://www.linkedin.com/in/melani-tirado/" target="_blank"
+                class="footer_redes_linkedin">LinkedIn</a>
+        </div>
+        <div class="footer_developed">
+            <p class="footer_developed_by">Developed by Melani Tirado</p>
+        </div>
+    </footer>
+
+    <script src="portfolio.js"></script>
+</body>
+
+</html>

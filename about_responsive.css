@@ -1,0 +1,93 @@
+@media screen and (min-width: 768px) {
+    .photo_about{
+        width: 25rem;
+    }
+
+    .about{
+        padding: 5rem;
+    }
+
+    .about_titles{
+        margin: 2rem 0;
+    }
+
+    .about_titles::after{
+        content: url(image/flower2.png);
+    }
+    .paragraph{
+        font-size: 1.50rem;
+    }
+
+    .about_titles{
+        font-size: 2rem;
+    }
+
+    .skills_div{
+        width: 31rem;
+        margin: 0 auto;
+        padding-bottom: 1rem;
+    }
+
+    .education_div{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+       
+    }
+
+    .education_img{
+        margin: 0 auto;
+    }
+    
+    .hobbie_icon{
+        width: 5rem;
+    }
+
+    .about_span{
+        font-size: 1rem;
+    }
+ 
+ }
+ 
+ @media screen and (min-width: 769px) and (max-width: 900px) {
+    .certificate{
+        width: 18.75rem;
+        height: 18.75rem;
+    }
+ 
+ }
+
+ @media screen and (min-width: 901px) and (max-width:1023px) {
+ 
+    .education_div{
+        margin-bottom: 2rem;
+    }
+
+ }
+ 
+ @media screen and (min-width:1024px) and (max-width:1440px) {
+    
+    .about{
+        padding: 7rem;
+    }
+    .skills_div{
+        width: 31.3rem;
+    }
+
+    .education_div{
+        margin-bottom: 3rem;
+    }
+    
+    .certificate{
+        width: 25rem;
+        height: 25rem;
+    }
+ }
+
+ @media screen and (min-width:1441px) {
+    .about{
+        padding: 10rem;
+    }
+    
+ }
+

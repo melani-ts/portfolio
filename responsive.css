@@ -1,0 +1,629 @@
+/* RESPONSIVE DESING*/
+
+@media screen and (min-width: 768px) {
+
+   .logo {
+      width: 3.5rem;
+   }
+
+   .open_menu,
+   .close_menu {
+      right: 60px;
+      font-size: 3.5rem;
+      transition: .6s;
+   }
+
+   .menu_burger_li {
+      font-size: 2.5rem;
+      margin-left: 5rem;
+   }
+
+   .menu_moon{
+      right: 110px;
+      top: 55px;
+      font-size: 2.5rem;
+   }
+   .photo_img {
+      width: 25rem;
+   }
+
+   .presentation_info_1 {
+      font-size: 4rem;
+      margin: 1.25rem 0.6rem 1.9rem 0.6rem;
+   }
+
+   .presentation_info_2 {
+      font-size: 1.5rem;
+      margin-bottom: 1.25rem;
+   }
+
+   .redes_github,
+   .redes_linkedIn {
+      width: 2.5rem;
+      margin-bottom: 4.4rem;
+   }
+
+   .enlace_img {
+      display: flex;
+      justify-content: center;
+   }
+
+   .projects_lastest_projects {
+      font-size: 36px;
+      margin: 0 auto;
+      width: 650px;
+      margin-bottom: 30px;
+   }
+   .projects_img_div {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 0 auto;
+      width: 612px;
+   }
+
+
+   .projects_box {
+      display: none;
+   }
+
+   .projects_titles {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+   }
+
+   .projects_icon_question, .projects_icon_question_2{
+      cursor: pointer;
+   }
+   .projects_description {
+      display: none;
+      justify-content: center;
+      font-size: 0.5rem;
+      margin-left: 40px;
+      padding: 2rem;
+      width: 90%;
+      border: 0.062rem solid #594a4e;
+      border-left-width: 0.4rem;
+      border-radius: 0.5rem;
+      transition: 10ms;
+   }
+
+   .projects_img {
+      display: block;
+   }
+
+   .projects_photo{
+      display: block;
+      width: 600px;
+      border-radius: 0.5rem;
+
+      border: 0.062rem solid #594a4e;
+      border-left-width: 0.4rem;
+      border-radius: 0.5rem;
+   }
+
+   .projects_titles,
+   .contact_message_info_2,
+   .footer_developed_by,
+   .footer_redes_cv,
+   .footer_redes_github,
+   .footer_redes_linkedin {
+      font-size: 1.5rem;
+   }
+
+   .projects_description{
+      justify-content: center;
+      margin: 10px auto;
+      width: 600px;
+   }
+
+   .projects_description,
+   .enlaces,
+   .contact_form_label {
+      font-size: 1.25rem;
+   }
+
+   .projects_arrow {
+      width: 1.9rem;
+   }
+
+   .contact_message_info_1 {
+      font-size: 2.2rem;
+   }
+
+   .contact_flower {
+      width: 1.6rem;
+   }
+
+
+   .contact_form_input {
+      width: 95%;
+      height: 3.1rem;
+   }
+
+   .contact_form_input::placeholder,
+   .contact_form_textarea::placeholder {
+      font-size: 1rem;
+   }
+
+   .contact_form_textarea {
+      width: 95%;
+   }
+
+   .contact_button_1 {
+      width: 16rem;
+      height: 3.1rem;
+      font-size: 1rem;
+   }
+
+   .contact_button_1:hover {
+      width: 15rem;
+      height: 2.8rem;
+      font-size: 0.9rem;
+   }
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 900px) {
+   .logo {
+      width: 40px;
+   }
+
+   .open_menu,
+   .close_menu {
+      font-size: 40px;
+   }
+
+   .menu_moon{
+      font-size: 1.5rem;
+   }
+   .menu_burger_ul {
+      margin-left: 20px;
+   }
+
+   .home {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: center;
+      margin-right: 20px;
+   }
+
+   .photo_img {
+      width: 400px;
+      height: 400px;
+   }
+
+   .presentation_info_1 {
+      margin-top: 8rem;
+      margin-left: 20px;
+      width: 300px;
+      text-align: left;
+      flex-wrap: wrap;
+      font-size: 64px;
+      color: #33272a;
+      font-weight: 700;
+      line-height: 100px;
+   }
+
+   .presentation_info_2 {
+      font-size: 24px;
+      margin-left: 20px;
+      text-align: start;
+
+   }
+
+   .redes {
+      display: flex;
+      justify-content: flex-start;
+      margin-left: 20px;
+   }
+
+   .contact_message_info_2 {
+      font-size: 1.5rem;
+   }
+
+   .contact_form {
+      width: 650px;
+      margin: 0 auto;
+      justify-content: center;
+   }
+
+   .contact_button_1 {
+      font-size: 1.2rem;
+   }
+
+   .contact_button_1:hover {
+      font-size: 1.1rem;
+   }
+}
+
+@media screen and (min-width: 901px) and (max-width:1023px) {
+
+   .logo {
+      width: 40px;
+   }
+
+   .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+
+   .open_menu,
+   .close_menu {
+      display: none;
+   }
+
+   .menu_desktop {
+      opacity: 1;
+      visibility: visible;
+      box-shadow: none;
+      position: static;
+      background: #faeee7;
+   }
+
+   .menu_desktop_ul {
+      display: flex;
+      flex-direction: row;
+      gap: 0;
+      margin: 0 20px 0 0;
+
+   }
+
+   .menu_moon {
+      font-size: 20px;
+      background: #faeee7;
+      border: none;
+      transition: all 0.3s ease;
+      position: absolute;
+      right: 10px;
+      top: 76px;
+  }
+
+  .menu_moon:hover{
+   cursor: pointer;
+  }
+
+   .menu_desktop_a {
+      color: #25232d;
+      font-size: 30px;
+      font-weight: 700;
+   }
+
+   .home {
+      display: flex;
+      flex-direction: row-reverse;
+      margin-top: 100px;
+   }
+
+   .photo_img {
+      width: 400px;
+      height: 400px;
+      margin-right: 10px;
+   }
+
+   .projects_lastest_projects {
+      margin-left: 130px;
+   }
+
+   .presentation {
+      text-align: left;
+      margin-top: 0;
+   }
+
+   .presentation_info_1 {
+      margin-top: 80px;
+      margin-left: 20px;
+      text-align: left;
+      font-size: 4rem;
+      line-height: 100px;
+      margin-bottom: 20px;
+      font-weight: 600;
+   }
+
+   .presentation_info_2 {
+      font-size: 24px;
+      margin-left: 20px;
+   }
+
+   .redes {
+      display: flex;
+      justify-content: flex-start;
+      margin-left: 140px;
+   }
+
+   .contact_message_info_2 {
+      font-size: 1.5rem;
+   }
+
+   .contact_form {
+      width: 650px;
+      margin: 0 auto;
+      justify-content: center;
+   }
+
+
+   .contact_button_1 {
+      font-size: 1.2rem;
+   }
+
+   .contact_button_1:hover {
+      font-size: 1.1rem;
+   }
+}
+
+@media screen and (min-width:1024px) and (max-width:1440px) {
+
+   .logo {
+      width: 50px;
+   }
+
+   .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+
+   .open_menu,
+   .close_menu {
+      display: none;
+   }
+
+   .menu_desktop {
+      opacity: 1;
+      visibility: visible;
+      box-shadow: none;
+      position: static;
+      background: #faeee7;
+   }
+
+   .menu_desktop_ul {
+      display: flex;
+      flex-direction: row;
+      gap: 0;
+      margin: 0 20px 0 0;
+
+   }
+
+   .menu_desktop_a {
+      color: #25232d;
+      font-size: 23px;
+      font-weight: 700;
+      cursor: pointer;
+   }
+   .menu_moon {
+      font-size: 20px;
+      background: #faeee7;
+      border: none;
+      transition: all 0.3s ease;
+      position: absolute;
+      right: 10px;
+      top: 76px;
+  }
+
+   .home {
+      display: flex;
+      flex-direction: row-reverse;
+      margin-top: 65px;
+      justify-content: center;
+   }
+
+   .photo_img {
+      width: 400px;
+      height: 400px;
+      margin-right: 10px;
+      justify-content: space-evenly;
+   }
+
+   .presentation {
+      text-align: left;
+      margin-top: 0;
+   }
+
+   .presentation_info_1 {
+      margin-top: 80px;
+      margin-left: 20px;
+      text-align: left;
+      font-size: 4rem;
+      line-height: 100px;
+      margin-bottom: 20px;
+      font-weight: 600;
+   }
+
+   .presentation_info_2 {
+      font-size: 24px;
+      margin-left: 20px;
+   }
+
+   .redes {
+      display: flex;
+      justify-content: center;
+   }
+
+   .projects_img {
+      display: flex;
+      flex-direction: column;
+   }
+
+   .projects_photo {
+      margin-bottom: 40px;
+   }
+
+   .projects_titles {
+      margin: 0;
+      display: block;
+   }
+
+   .projects_img_div {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+   }
+
+   .contact_form {
+      width: 650px;
+      margin: 0 auto;
+      justify-content: center;
+   }
+
+
+   .contact_message_info_2 {
+      font-size: 1.5rem;
+   }
+
+   .contact_button_1 {
+      font-size: 1.2rem;
+   }
+
+   .contact_button_1:hover {
+      font-size: 1.1rem;
+   }
+}
+
+@media screen and (min-width:1441px) {
+   .logo {
+      width: 50px;
+   }
+
+   .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+
+   .open_menu,
+   .close_menu {
+      display: none;
+   }
+
+   .menu_desktop {
+      opacity: 1;
+      visibility: visible;
+      box-shadow: none;
+      position: static;
+      background: #faeee7;
+   }
+
+   .menu_desktop_ul {
+      display: flex;
+      flex-direction: row;
+      gap: 0;
+      margin: 0 20px 0 0;
+
+   }
+
+   .menu_desktop_a {
+      color: #25232d;
+      font-size: 23px;
+      font-weight: 700;
+      cursor: pointer;
+   }
+
+   .menu_moon {
+      font-size: 22px;
+      background: #faeee7;
+      border: none;
+      transition: all 0.3s ease;
+      position: absolute;
+      right: 10px;
+      top: 76px;
+  }
+
+
+   .home {
+      display: flex;
+      flex-direction: row-reverse;
+      margin-top: 100px;
+      justify-content: center;
+   }
+
+   .photo_img {
+      width: 500px;
+      height: 500px;
+      margin-right: 10px;
+      justify-content: space-evenly;
+   }
+
+   .presentation {
+      text-align: left;
+      margin-top: 0;
+   }
+
+   .presentation_info_1 {
+      margin-top: 80px;
+      margin-left: 20px;
+      text-align: left;
+      font-size: 4rem;
+      line-height: 100px;
+      margin-bottom: 20px;
+      font-weight: 600;
+   }
+
+   .presentation_info_2 {
+      font-size: 24px;
+      margin-left: 20px;
+   }
+
+   .redes {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 100px;
+   }
+
+   .redes_github,
+   .redes_linkedIn {
+      width: 50px;
+   }
+
+   .projects_img {
+      display: flex;
+      flex-direction: column;
+   }
+
+   .projects_lastest_projects {
+      width: 950px;
+      margin-bottom: 50px;
+   }
+
+   .projects_titles {
+      margin: 0;
+      display: block;
+   }
+   .projects_description{
+      justify-content: center;
+      margin: 10px auto;
+      width: 900px;
+   }
+   .projects_img_div {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 900px;
+      margin-bottom: 40px;
+   }
+
+   .projects_photo{
+      width: 900px;
+      margin-bottom: 10px;
+   }
+
+   .contact_form {
+      width: 900px;
+      margin: 0 auto;
+      justify-content: center;
+   }
+
+
+   .contact_message_info_2 {
+      font-size: 1.5rem;
+   }
+
+   .contact_button_1 {
+      font-size: 1.2rem;
+   }
+
+   .contact_button_1:hover {
+      font-size: 1.1rem;
+   }
+}

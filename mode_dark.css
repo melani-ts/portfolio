@@ -1,0 +1,100 @@
+.body_dark {
+   background: #030200;
+}
+
+.logo_dark {
+   border: 0.125rem solid #fffffe;
+}
+
+.open_menu_dark, .moon_dark {
+   background: #030200;
+   color: #fffffe;
+}
+
+
+.presentation_info_1_dark,
+.presentation_info_2_dark,
+.projects_titles_dark,
+.projects_lastest_projects_dark,
+.projects_description_dark,
+.contact_form_label_dark {
+   color: #faeee7;
+}
+
+.projects_box_dark{
+   border: 0.062rem solid #fffffe;
+   border-left-width: 0.5rem;
+   border-radius: 0.5rem;
+   margin: 0.8rem 1.56rem 0.13rem 1.25rem;
+   padding: 0.625rem;
+   box-shadow: 0 3px 6px -1 #fffffe,
+      0 3px 6px -1px #fffffe;
+}
+
+.contact_message_info_2_dark {
+   color: #fffffe;
+}
+
+.contact_form_input_dark,
+.contact_form_textarea_dark {
+   background: #030200;
+   border: 1px solid #fffffe;
+   color: #fffffe;
+   font-family: Playfair Display, sans-serif;
+}
+
+.contact_form_input_dark::placeholder,
+.contact_form_textarea_dark::placeholder {
+   color: #fffffe;
+}
+
+.footer_redes_cv_dark,
+.footer_redes_github_dark,
+.footer_redes_linkedin_dark,
+.footer_developed_by_dark {
+   color: #fffffe;
+}
+
+@media screen and (min-width:768px) {
+
+.projects_photo_dark {
+   display: block;
+   width: 600px;
+   border-radius: 0.5rem;
+
+   border: 0.062rem solid #faeee7;
+   border-left-width: 0.4rem;
+   border-radius: 0.5rem;
+}
+
+.projects_description_dark {
+   border: 0.062rem solid #fffffe;
+   border-left-width: 0.4rem;
+   border-radius: 0.5rem;
+   transition: 10ms;
+}
+}
+
+@media screen and (min-width:901px) {
+
+   .menu_dark,
+   .menu_dark_a {
+      background: #030200;
+      color: #fffffe;
+      margin-right: 10px;
+   }
+
+
+
+   .moon_dark {
+      font-size: 1.5rem;
+      color: #fffffe;
+      background: #030200;
+      border: none;
+      position: absolute;
+      top: 72px;
+      right: 1.25rem;
+   }
+
+
+}
